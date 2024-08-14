@@ -5,6 +5,11 @@
   const publishedAt = data.publishedAt ?? "";
 </script>
 
+<svelte:head>
+  <title>{data.title}</title>
+  <meta name="description" content={data.description} />
+</svelte:head>
+
 <div class="prose prose-neutral mx-auto max-w-2xl p-5">
   <img class="rounded" src={data.eyecatch.url} alt="eyecatch" />
   <time datetime={publishedAt} class="block text-xs text-neutral-500">
