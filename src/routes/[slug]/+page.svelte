@@ -8,6 +8,7 @@
 <svelte:head>
   <title>{data.title}</title>
   <meta name="description" content={data.description} />
+  <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 </svelte:head>
 
 <div class="prose prose-neutral mx-auto max-w-2xl p-5">
