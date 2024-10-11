@@ -12,11 +12,11 @@
 </svelte:head>
 
 <div class="prose prose-neutral mx-auto max-w-2xl p-5">
-  <img class="aspect-video w-full rounded object-cover" src={data.eyecatch.url} alt="eyecatch" />
   <time datetime={publishedAt} class="block text-xs text-neutral-500">
     {new Date(publishedAt).toDateString()}
   </time>
   <h1 class="mt-1">{data.title}</h1>
+  <img class="aspect-video w-full rounded object-cover" src={data.eyecatch.url} alt="eyecatch" />
   <div>
     {@html data.content}
   </div>
