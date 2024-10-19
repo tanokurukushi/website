@@ -16,7 +16,7 @@
     {new Date(publishedAt).toDateString()}
   </time>
   <h1 class="mt-1">{data.title}</h1>
-  <img class="aspect-video w-full rounded object-cover" src={data.eyecatch.url} alt="eyecatch" />
+  <img class="aspect-[8/5] w-full rounded object-cover" src={data.eyecatch.url} alt="eyecatch" />
   <div>
     {@html data.content}
   </div>
