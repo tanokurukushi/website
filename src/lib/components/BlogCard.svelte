@@ -2,7 +2,11 @@
   import type { Post } from "$lib/microcms";
   import type { MicroCMSListContent } from "microcms-js-sdk";
 
-  export let post: Post & MicroCMSListContent;
+  interface Props {
+    post: Post & MicroCMSListContent;
+  }
+
+  let { post }: Props = $props();
   const publishedAt = post.publishedAt ?? "";
 </script>
 
