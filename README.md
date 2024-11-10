@@ -9,7 +9,7 @@
 
 ## Technology
 
-:heart: SvelteKit
+:heart: Svelte / SvelteKit
 
 :heart: Tailwind CSS
 
